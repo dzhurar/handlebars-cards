@@ -1,0 +1,23 @@
+body{
+    background-color: #fff4e4;
+}
+#carContainer{
+    margin: 100px auto;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.cars-card{
+    background-color: bisque;
+    width: 350px;
+    height: 300px;
+    padding: 10px 20px;
+}
+.text{
+    color: #5A3E2B;
+    font-size: 22px;
+    font-weight: 600;
+}

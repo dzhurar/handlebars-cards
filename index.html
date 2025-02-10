@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HandleBars-HW</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+
+    <template id="carsTemplate">
+        <div class="cars-card">
+            <p class="text">Рік виробництва: {{year}}</p>
+            <p class="text">Назва моделі: {{name}}</p>
+            <p class="text">Колір: {{color}}</p>
+            <p class="text">Максимальна швидкість: {{maxSpeed}}</p>
+            <p class="text">Прокат: {{mileage}}</p>
+            <p class="text">Оцінка: {{rating}}</p>
+        </div>
+    </template>
+
+    <div id="carContainer">
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script src="./src/index.js"></script>
+</body>
+</html>
